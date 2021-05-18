@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <form action="predict" method="POST" enctype="multipart/form-data">
+        <body>
+            <h1>BINARY CLASSIFICATION OF MANGO AND JACKFRUIT</h1>
+            <br>
+            <br>
+            <input type="file" name='image'>
+            <br>
+            <br>
+            <input type="submit">
+            <br>
+            <br>
+            {{ prediction_text }}
+
+        </body>
+    </form>
+
+</html>
+
+
+<style>
+    body{
+        text-align: center;
+        background-color: bisque;
+    }
+</style>
